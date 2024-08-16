@@ -10,6 +10,8 @@ enableInlineShortcodes = true
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
 
+summaryLength = 20
+
 [params]
 noindex = false
 
