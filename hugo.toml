@@ -49,6 +49,18 @@ url = "mailto:alv@a1v4.ro"
     url = "/about/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 10
+
 [taxonomies]
 category = "categories"
 tag = "tags"
