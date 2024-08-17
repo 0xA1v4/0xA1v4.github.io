@@ -2,7 +2,7 @@
 title = "THM's Linux Privilege Escalation - Capstone"
 author = ["a1v4"]
 date = 2024-08-16
-lastmod = 2024-08-16T01:22:22-05:00
+lastmod = 2024-08-16T23:06:57-05:00
 tags = ["tryhackme", "writeup"]
 draft = false
 +++
@@ -13,7 +13,7 @@ Writeup for TryHackMe's _Linux Privilege Escalation_ capstone task.
 
 [Link to the room](https://tryhackme.com/r/room/linprivesc)
 
-We connect to the box and run [linpeas](linpeas.txt), then we check through the list of
+We connect to the box and run linpeas, then we check through the list of
 privilege escalation vectors listed in the room. We find that `base64` has
 `suid` set.
 
