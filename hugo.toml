@@ -77,3 +77,7 @@ unsafe = true
     startLevel = 2
     endLevel   = 3
     ordered    = true
+
+[permalinks]
+  [permalinks.page]
+    posts = '/posts/:year/:month/:slug'
